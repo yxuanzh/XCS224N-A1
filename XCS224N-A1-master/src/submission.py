@@ -23,8 +23,12 @@ def distinct_words(corpus):
     num_corpus_words = 0
 
     # ### START CODE HERE ###
+<<<<<<< HEAD
+    
+=======
     corpus_words = sorted(list(set(([word for document in corpus for word in document]))))
     num_corpus_words = len(corpus_words)
+>>>>>>> 4ae625eb3302b810e3e11653e57b04eae10d381e
     # ### END CODE HERE ###
 
     return corpus_words, num_corpus_words
